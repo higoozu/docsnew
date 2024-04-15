@@ -9,3 +9,11 @@
   height: 200px;
   width: 200px;
 }
+
+.margin-index {
+  margin: 10px 0 10px;
+}
+
+.justify-content--center {
+  justify-content: center;
+}

@@ -93,16 +93,24 @@ const config = {
             position: 'left',
             label: 'Fragments',
           },
-          {href: 'https://space.asobear.com', label: 'Space', position: 'left'},
+          {href: 'https://space.asobear.com', label: 'Space', position: 'right'},
           {
-            href: 'https://asobear.medium.com/',
-            label: 'Medium',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/higoozu/',
-            label: 'GitHub',
-            position: 'right',
+            label: "Social",
+            position: "right",
+            items: [
+              {
+                label: "Mastodon",
+                href: "https://aso.moe/@asobear",
+              },
+              {
+                label: "Medium",
+                href: "https://asobear.medium.com/",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/higoozu/",
+              },
+            ],
           },
         ],
         // 下滑隐藏navbar
@@ -116,7 +124,19 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '🚧 网站正在测试 <a target="_blank" rel="noopener noreferrer" href="https://docs-old.asobear.com">回到旧版</a>',
+        isCloseable: true,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
     }),
+    
 };
 
 export default config;

@@ -289,17 +289,6 @@
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
-        "frontMatter": {
-          "title": "Markdown page example"
-        },
-        "unlisted": false
       }
     ]
   },

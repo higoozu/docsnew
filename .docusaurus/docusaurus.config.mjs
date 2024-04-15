@@ -75,17 +75,25 @@ export default {
         {
           "href": "https://space.asobear.com",
           "label": "Space",
-          "position": "left"
-        },
-        {
-          "href": "https://asobear.medium.com/",
-          "label": "Medium",
           "position": "right"
         },
         {
-          "href": "https://github.com/higoozu/",
-          "label": "GitHub",
-          "position": "right"
+          "label": "Social",
+          "position": "right",
+          "items": [
+            {
+              "label": "Mastodon",
+              "href": "https://aso.moe/@asobear"
+            },
+            {
+              "label": "Medium",
+              "href": "https://asobear.medium.com/"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/higoozu/"
+            }
+          ]
         }
       ],
       "hideOnScroll": true
@@ -299,10 +307,15 @@ export default {
         }
       ]
     },
+    "announcementBar": {
+      "id": "support_us",
+      "content": "🚧 网站正在测试 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs-old.asobear.com\">回到旧版</a>",
+      "isCloseable": true
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "respectPrefersColorScheme": true
     },
     "docs": {
       "versionPersistence": "localStorage",
