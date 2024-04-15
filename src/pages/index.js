@@ -1,28 +1,29 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
+import Svg from '@site/static/img/bear.svg'; // 引入你的SVG文件
 import styles from './index.module.css';
 
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+
   return (
     <Layout
       // title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <div  className={styles.hero_wrap} style={{
+      <div className={styles.hero_wrap} style={{
         background: `url(./img/bg.svg) center center/cover no-repeat`
       }}>
+        {/* SVG图形插入位置 */}
+        <Svg className={styles.featureSvg} role="img" /> {/* 添加SVG组件 */}
+        
+        {/* 原有的h1标题 */}
         <h1 className={styles.hero_title}>AsoBear Docs</h1>
-        <p className={styles.hero_subtitle}>AsoBear Docs</p>
+        
+        {/* 可选的副标题和其他元素 */}
         {/* <header>
           <div className={styles.container}>
-            
             <p className="hero__subtitle">{siteConfig.tagline}</p>
             <div className={styles.buttons}></div>
           </div>
