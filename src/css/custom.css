@@ -29,12 +29,28 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
-
 div[class^=announcementBar_] {
   --site-announcement-bar-stripe-color1: #e8d7ff;
   --site-announcement-bar-stripe-color2: #ffe9d1;
-  background: repeating-linear-gradient(35deg,var(--site-announcement-bar-stripe-color1),var(--site-announcement-bar-stripe-color1) 20px,var(--site-announcement-bar-stripe-color2) 10px,var(--site-announcement-bar-stripe-color2) 40px);
+  background: repeating-linear-gradient(35deg, var(--site-announcement-bar-stripe-color1), var(--site-announcement-bar-stripe-color1) 20px, var(--site-announcement-bar-stripe-color2) 10px, var(--site-announcement-bar-stripe-color2) 40px);
   font-size: 20px;
   font-weight: 700;
+}
+
+.navbar__logo img,
+.navbar__logo svg {
+  border-radius: 6px;
+}
+
+.navbar__title {
+  flex: 1 1 auto;
+  font-size: 1.3rem;
+}
+
+.navbar__title:hover, .navbar__brand:hover{
+  color: var(--ifm-navbar-link-color) !important;
+}
+
+.footer__copyright a{
+  color: var(--ifm-footer-color);
 }

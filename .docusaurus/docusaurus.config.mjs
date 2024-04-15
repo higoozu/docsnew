@@ -86,10 +86,6 @@ export default {
               "href": "https://aso.moe/@asobear"
             },
             {
-              "label": "Medium",
-              "href": "https://asobear.medium.com/"
-            },
-            {
               "label": "GitHub",
               "href": "https://github.com/higoozu/"
             }
@@ -100,7 +96,7 @@ export default {
     },
     "footer": {
       "style": "light",
-      "copyright": "© 2024 AsoBear.com Built with Docusaurus",
+      "copyright": "© 2024 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.asobear.com\">AsoBear.com</a> Built with Docusaurus",
       "links": []
     },
     "prism": {

@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -93,7 +93,7 @@ const config = {
             position: 'left',
             label: 'Fragments',
           },
-          {href: 'https://space.asobear.com', label: 'Space', position: 'right'},
+          { href: 'https://space.asobear.com', label: 'Space', position: 'right' },
           {
             label: "Social",
             position: "right",
@@ -101,10 +101,6 @@ const config = {
               {
                 label: "Mastodon",
                 href: "https://aso.moe/@asobear",
-              },
-              {
-                label: "Medium",
-                href: "https://asobear.medium.com/",
               },
               {
                 label: "GitHub",
@@ -118,7 +114,7 @@ const config = {
       },
       footer: {
         style: 'light',
-        copyright: `© ${new Date().getFullYear()} AsoBear.com Built with Docusaurus`,
+        copyright: `© ${new Date().getFullYear()} <a target="_blank" rel="noopener noreferrer" href="https://www.asobear.com">AsoBear.com</a> Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
@@ -136,7 +132,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
     }),
-    
+
 };
 
 export default config;
