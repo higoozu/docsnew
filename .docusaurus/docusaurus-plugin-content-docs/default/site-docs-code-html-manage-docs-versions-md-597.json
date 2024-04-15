@@ -1,0 +1,23 @@
+{
+  "id": "code/Html/manage-docs-versions",
+  "title": "常用代码",
+  "description": "给图片批量加水印",
+  "source": "@site/docs/code/Html/manage-docs-versions.md",
+  "sourceDirName": "code/Html",
+  "slug": "/code/Html/manage-docs-versions",
+  "permalink": "/code/Html/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/higoozu/docsnew/blob/main/docs/code/Html/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "codeSidebar",
+  "previous": {
+    "title": "常用代码",
+    "permalink": "/code/Go/manage-docs-versions"
+  }
+}

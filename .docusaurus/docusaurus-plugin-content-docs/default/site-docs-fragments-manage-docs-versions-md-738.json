@@ -1,0 +1,19 @@
+{
+  "id": "fragments/manage-docs-versions",
+  "title": "常用代码",
+  "description": "给图片批量加水印",
+  "source": "@site/docs/fragments/manage-docs-versions.md",
+  "sourceDirName": "fragments",
+  "slug": "/fragments/manage-docs-versions",
+  "permalink": "/fragments/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/higoozu/docsnew/blob/main/docs/fragments/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "fragmentSidebar"
+}

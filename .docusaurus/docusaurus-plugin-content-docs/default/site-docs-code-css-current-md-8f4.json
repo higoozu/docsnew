@@ -1,0 +1,27 @@
+{
+  "id": "code/CSS/current",
+  "title": "常用代码",
+  "description": "给图片批量加水印",
+  "source": "@site/docs/code/CSS/current.md",
+  "sourceDirName": "code/CSS",
+  "slug": "/code/CSS/current",
+  "permalink": "/code/CSS/current",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/higoozu/docsnew/blob/main/docs/code/CSS/current.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "codeSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/code/translate-your-site"
+  },
+  "next": {
+    "title": "常用代码",
+    "permalink": "/code/Go/manage-docs-versions"
+  }
+}

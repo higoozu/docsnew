@@ -5,12 +5,12 @@
  */
 export default {
   "title": "AsoBear Docs",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://docs.asobear.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "higoozu",
+  "projectName": "docsnew",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,12 +27,10 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "routeBasePath": "/",
+          "editUrl": "https://github.com/higoozu/docsnew/blob/main/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -44,20 +42,35 @@ export default {
     "navbar": {
       "title": "DOCS",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "AsoBear Logo",
+        "src": "https://cdn.jsdelivr.net/gh/higoozu/images-bed@master/20240222/icon-100px.205w2vncb36o.webp",
+        "width": 32,
+        "height": 32
       },
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "codeSidebar",
           "position": "left",
-          "label": "笔记"
+          "label": "Code"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
+          "type": "docSidebar",
+          "sidebarId": "toolSidebar",
+          "position": "left",
+          "label": "Tools"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "courseSidebar",
+          "position": "left",
+          "label": "Courses"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "fragmentSidebar",
+          "position": "left",
+          "label": "Fragments"
         },
         {
           "href": "https://space.asobear.com",
@@ -65,16 +78,21 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://asobear.medium.com/",
+          "label": "Medium",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/higoozu/",
           "label": "GitHub",
           "position": "right"
         }
       ],
-      "hideOnScroll": false
+      "hideOnScroll": true
     },
     "footer": {
       "style": "light",
-      "copyright": "© 2024 AsoBear Built with Docusaurus",
+      "copyright": "© 2024 AsoBear.com Built with Docusaurus",
       "links": []
     },
     "prism": {

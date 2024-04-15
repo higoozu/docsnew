@@ -8,144 +8,151 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
+    "codeSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro",
+        "label": "Translate your site",
+        "href": "/code/translate-your-site",
+        "docId": "code/translate-your-site",
         "unlisted": false
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "CSS",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations",
+            "label": "常用代码",
+            "href": "/code/CSS/current",
+            "docId": "code/CSS/current",
             "unlisted": false
           }
-        ],
-        "href": "/docs/category/tutorial---basics"
+        ]
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "Go",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site",
+            "label": "常用代码",
+            "href": "/code/Go/manage-docs-versions",
+            "docId": "code/Go/manage-docs-versions",
             "unlisted": false
           }
-        ],
-        "href": "/docs/category/tutorial---extras"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Html",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "常用代码",
+            "href": "/code/Html/manage-docs-versions",
+            "docId": "code/Html/manage-docs-versions",
+            "unlisted": false
+          }
+        ]
+      }
+    ],
+    "toolSidebar": [
+      {
+        "type": "link",
+        "label": "常用代码",
+        "href": "/tools/manage-docs-versions",
+        "docId": "tools/manage-docs-versions",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "ffmpeg",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "常用代码",
+            "href": "/tools/ffmpeg/manage-docs-versions",
+            "docId": "tools/ffmpeg/manage-docs-versions",
+            "unlisted": false
+          }
+        ]
+      }
+    ],
+    "courseSidebar": [
+      {
+        "type": "link",
+        "label": "常用代码",
+        "href": "/courses/manage-docs-versions",
+        "docId": "courses/manage-docs-versions",
+        "unlisted": false
+      }
+    ],
+    "fragmentSidebar": [
+      {
+        "type": "link",
+        "label": "常用代码",
+        "href": "/fragments/manage-docs-versions",
+        "docId": "fragments/manage-docs-versions",
+        "unlisted": false
       }
     ]
   },
   "docs": {
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
+    "code/CSS/current": {
+      "id": "code/CSS/current",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "codeSidebar"
     },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
+    "code/Go/manage-docs-versions": {
+      "id": "code/Go/manage-docs-versions",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "codeSidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
+    "code/Html/manage-docs-versions": {
+      "id": "code/Html/manage-docs-versions",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "codeSidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
+    "code/translate-your-site": {
+      "id": "code/translate-your-site",
       "title": "Translate your site",
       "description": "Let's translate docs/intro.md to French.",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "codeSidebar"
+    },
+    "courses/manage-docs-versions": {
+      "id": "courses/manage-docs-versions",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "courseSidebar"
+    },
+    "fragments/manage-docs-versions": {
+      "id": "fragments/manage-docs-versions",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "fragmentSidebar"
+    },
+    "tools/ffmpeg/manage-docs-versions": {
+      "id": "tools/ffmpeg/manage-docs-versions",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "toolSidebar"
+    },
+    "tools/manage-docs-versions": {
+      "id": "tools/manage-docs-versions",
+      "title": "常用代码",
+      "description": "给图片批量加水印",
+      "sidebar": "toolSidebar"
     }
   }
 }
